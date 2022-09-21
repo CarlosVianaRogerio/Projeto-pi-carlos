@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: inherit;
+}
+body{
+    background-color: #E8F1F2;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 75px;
+    border: solid 3px green;
+}
+.caixa {
+    
+    background-color: #0b3c58;
+    border-radius: 13px;
+    border: solid 3px purple;
+    width: 310px;
+    padding: left 100px; ;
+    padding: right 100px; ;
+
+}
+.caixa .caixadentro{
+    border: solid 3px violet;
+    margin: auto;
+    
+    
+
+}
+.caixa span{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 40px;
+    color: white;
+}
+.caixa p{
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+.caixa .botao{
+    display: flex;
+    justify-content: center;
+}
+.img_grande{
+  
+    justify-content: center;
+    display: flex;
+    padding-right: 100px;
+    padding-left: 550px;
+
+}
+
